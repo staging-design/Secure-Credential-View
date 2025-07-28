@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Credentials Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Secure Credential Viewer</h1>
+        <div class="card">
+            <p><strong>Email:</strong> <span id="email">Loading...</span></p>
+            <p><strong>Passcode:</strong> <span id="passcode">Loading...</span></p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
